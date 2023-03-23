@@ -1,0 +1,32 @@
+img {
+    width: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    background-color: #b1fafa;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover {
+    background-color: #7ae6e6;
+}

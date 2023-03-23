@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    max-height: 600px;
+    background-color: #ddf7fc;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    margin: 10px;
+    width: 15%;
+    height: 20%;
+}
+
+p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
