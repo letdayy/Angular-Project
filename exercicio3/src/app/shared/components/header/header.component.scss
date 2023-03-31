@@ -1,0 +1,17 @@
+header {
+    background-color: rgb(0, 255, 106);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}

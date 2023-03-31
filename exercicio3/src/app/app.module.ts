@@ -3,12 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from "./shared/shared.module";
-import { ColaboradoresComponent } from './features/colaboradores/colaboradores.component';
-
+import { ListagemComponent } from './features/colaboradores/listagem/listagem.component';
 @NgModule({
     declarations: [
         AppComponent,
-        ColaboradoresComponent
+        ListagemComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
